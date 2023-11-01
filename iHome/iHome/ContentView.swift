@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         TabView{
             PayHome().tabItem{
-                Label("Pagamentos", systemImage: "dollarsign.circle.fill")
+                Label("Serviços", systemImage: "dollarsign.circle.fill")
             }
            
             Home().tabItem{
